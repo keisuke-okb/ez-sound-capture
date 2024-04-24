@@ -1,0 +1,29 @@
+{
+    "fonts":{
+        "font": "Segoe UI",
+        "font_mono": "consolas",
+        "font_size": 15,
+        "font_size_big": 25
+    },
+    "labels":{
+        "SettingFrame":{
+            "header_name": "Recording Settings",
+            "label_input_source": "Input Source",
+            "label_option": "Options",
+            "label_cut": "Silence Removal",
+            "label_mp3": "MP3",
+            "label_normalize": "Normalize"
+        },
+        "MonitorFrame":{
+            "header_name": "Monitor",
+            "label_level": "Input Level"
+        },
+        "RecordingFrame":{
+            "header_name": "Recording Panel",
+            "label_recording": "⏺️",
+            "label_stop": "⏹️",
+            "label_recording_pause": "⏸️",
+            "text_pause": "Paused"
+        }
+    }
+}

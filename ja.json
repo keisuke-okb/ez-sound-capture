@@ -1,0 +1,29 @@
+{
+    "fonts":{
+        "font": "メイリオ",
+        "font_mono": "consolas",
+        "font_size": 15,
+        "font_size_big": 25
+    },
+    "labels":{
+        "SettingFrame":{
+            "header_name": "録音設定",
+            "label_input_source": "入力ソース",
+            "label_option": "オプション",
+            "label_cut": "無音除去",
+            "label_mp3": "MP3",
+            "label_normalize": "正規化"
+        },
+        "MonitorFrame":{
+            "header_name": "モニター",
+            "label_level": "入力レベル"
+        },
+        "RecordingFrame":{
+            "header_name": "録音パネル",
+            "label_recording": "⏺️",
+            "label_stop": "⏹️",
+            "label_recording_pause": "⏸️",
+            "text_pause": "一時停止中"
+        }
+    }
+}

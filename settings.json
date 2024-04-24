@@ -1,0 +1,10 @@
+{
+    "gui":{
+        "lang": "en"
+    },
+    "recording":{
+        "sample_rate": 44100,
+        "backup_interval": 60,
+        "silence_threshold": 0.05
+    }
+}

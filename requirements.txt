@@ -1,0 +1,5 @@
+soundcard
+soundfile
+numpy
+pydub
+customtkinter
