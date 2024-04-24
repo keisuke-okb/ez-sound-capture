@@ -11,7 +11,7 @@ EZ Sound Capture is a simple GUI program using [CustomTkinter](https://github.co
 - Auto silence removal (FFmpeg required)
 - Save as MP3 (FFmpeg required)
 - Normalize (FFmpeg required)
-- 
+
 TODO: Add a feature to output `.wav`  from backup npz files
 
 ## Known issue
