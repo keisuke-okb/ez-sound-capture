@@ -7,11 +7,19 @@ EZ Sound Capture is a simple GUI program that allows you to record audio from yo
 ## Main features
 - Record audio from a recording device or loopback audio output device (Anything you hear!)
 - Monitoring audio input level (log scale)
+- Backup recorded data (as numpy array)
 - Auto silence removal (FFmpeg required)
 - Save as MP3 (FFmpeg required)
 - Normalize (FFmpeg required)
-
+- 
 TODO: Add a feature to output `.wav`  from backup npz files
+
+## Known issue
+- Continuity of multiple chunks recorded is lost (occurs within soundcard module)
+```
+soundcard\mediafoundation.py:772: SoundcardRuntimeWarning: data discontinuity in recording
+  warnings.warn("data discontinuity in recording", SoundcardRuntimeWarning)
+```
 
 # Getting Started
 
@@ -50,6 +58,6 @@ pip install -r requirements.txt
 
 3. **Monitor Audio Levels**: The program provides real-time monitoring of audio levels. This can help you ensure that your audio is being captured at the right volume.
 
-4. **Start/Stop Recording**: Click the 'Start' button to begin recording. During recording, the button changes to a 'Stop' button. Click it again to stop the recording. The program also provides a 'Pause' button to pause and resume the recording.
+4. **Start/Stop Recording**: Click the 'Start recording' button (⏺️) to begin recording. During recording, the button changes to a 'Stop' button (⏹️). Click it again to stop the recording. The program also provides a 'Pause' button (⏸️) to pause and resume the recording.
 
-5. **Save Your Recording**: Once you stop the recording, the program will automatically save audio file to `./recordings/<recording_datetime>`. If you chose to save as MP3, the program will also save mp3 file to the same directory.
+5. **Save Your Recording**: Once you stop the recording, the program will automatically save audio file to `./recordings/<recording_datetime>/output.wav`. If you chose to save as MP3, the program will also save mp3 file to the same directory.
