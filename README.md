@@ -8,9 +8,9 @@ EZ Sound Capture is a simple GUI program using [CustomTkinter](https://github.co
 - Record audio from a recording device or loopback audio output device (Anything you hear!)
 - Monitoring audio input level (log scale)
 - Backup recorded data (as numpy array)
-- Auto silence removal (FFmpeg required)
-- Save as MP3 (FFmpeg required)
-- Normalize (FFmpeg required)
+- Auto silence removal
+- Save as MP3 (**FFmpeg required**)
+- Normalize (**FFmpeg required**)
 
 TODO: Add a feature to output `.wav`  from backup npz files
 
