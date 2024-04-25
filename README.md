@@ -2,7 +2,8 @@
 EZ Sound Capture is a simple GUI program using [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) that allows you to record audio from your selected recording device or loopback audio output device.
 **This program is designed to work even on PCs that do not have a stereo mixer installed!**
 
-![image](https://github.com/keisuke-okb/ez-sound-capture/assets/70097451/88067a26-e986-4164-8a16-fdec51e3b890)
+![image](https://github.com/keisuke-okb/ez-sound-capture/assets/70097451/95b55e50-904e-46dd-a1c6-e0dffbe65c49)
+ArtWork created by Stable Diffusion 3
 
 ## Main features
 - Record audio from a recording device or loopback audio output device (Anything you hear!)
@@ -11,6 +12,8 @@ EZ Sound Capture is a simple GUI program using [CustomTkinter](https://github.co
 - Auto silence removal
 - Save as MP3 (**FFmpeg required**)
 - Normalize (**FFmpeg required**)
+
+![image](https://github.com/keisuke-okb/ez-sound-capture/assets/70097451/88067a26-e986-4164-8a16-fdec51e3b890)
 
 TODO: Add a feature to output `.wav`  from backup npz files
 
