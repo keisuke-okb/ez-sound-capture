@@ -1,6 +1,7 @@
 # ez-sound-capture
 EZ Sound Capture is a simple GUI program using [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) that allows you to record audio from your selected recording device or loopback audio output device.
-**This program is designed to work even on PCs that do not have a stereo mixer installed!**
+**This program is designed to work even on Windows PCs that do not have a stereo mixer installed!**
+Note: Loopback devices are not supported on macOS :(
 
 ![image](https://github.com/keisuke-okb/ez-sound-capture/assets/70097451/95b55e50-904e-46dd-a1c6-e0dffbe65c49)
 ArtWork created by Stable Diffusion 3
