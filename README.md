@@ -33,6 +33,8 @@ To use FFmpeg required features, please install ffmpeg or set path/to/ffmpeg.exe
 ## 1. Create python environment
 ```powershell
 cd ez-sound-capture
+python -m venv venv
+.\venv\Scripts\activate.ps1 # For Windows
 pip install -r requirements.txt
 ```
 
